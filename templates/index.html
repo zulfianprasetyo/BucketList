@@ -99,8 +99,8 @@
                         if (done === 0) {
                             temp_html = `<li>
                                         <h2>✅ ${bucket}</h2>
-                                        <button onclick="done_bucket(${num})" type="button" class="btn btn-outline-primary me-2">Done!</button>
-                                        <button onclick="delete_bucket(${num})" type="button" class="btn btn-outline-danger">Delete!</button>
+                                        <button onclick="done_bucket(${num})" type="button" class="btn btn-outline-primary me-2">Selesai✅</button>
+                                        <button onclick="delete_bucket(${num})" type="button" class="btn btn-outline-danger">Hapus!</button>
                                     </li>`
                         } else {
                             temp_html = `<li>
@@ -161,11 +161,11 @@
 
 <body>
     <div class="mypic">
-        <h1>My Bucketlist</h1>
+        <h1>Rencanakan Agenda Terbaikmu Disini</h1>
     </div>
     <div class="mybox">
         <div class="mybucket">
-            <input id="bucket" class="form-control" type="text" placeholder="Enter your bucket list item here">
+            <input id="bucket" class="form-control" type="text" placeholder="--Masukkan Rencana Terbaikmu--">
             <button onclick="save_bucket()" type="button" class="btn btn-outline-primary">Save</button>
         </div>
     </div>
